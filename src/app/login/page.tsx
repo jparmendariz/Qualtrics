@@ -109,17 +109,8 @@ export default function LoginPage() {
             mounted ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-8'
           }`}
         >
-          {/* Mobile Logo */}
-          <Link href="/" className="lg:hidden flex items-center gap-3 mb-12">
-            <div className="w-10 h-10 bg-black rounded-xl flex items-center justify-center">
-              <span className="text-white font-semibold text-lg">R</span>
-            </div>
-            <span className="text-xl font-semibold">RX Hub</span>
-          </Link>
-
           {/* Header */}
           <div className="mb-10">
-            <p className="text-caption text-gray-400 mb-3">Acceso</p>
             <h2 className="font-display text-display-md text-black mb-3">
               Inicia sesión
             </h2>
