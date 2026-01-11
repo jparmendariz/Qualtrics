@@ -46,20 +46,17 @@ export default function LoginPage() {
         <div className="absolute inset-0 grid-lines opacity-10" />
 
         <div className="relative z-10 flex flex-col justify-between p-12 w-full">
-          {/* Logo */}
+          {/* Logo Button */}
           <Link
             href="/"
-            className={`flex items-center gap-3 transition-all duration-700 ${
+            className={`inline-flex items-center gap-2 px-4 py-2 bg-white/10 hover:bg-white/20 border border-white/20 rounded-full transition-all duration-300 hover:scale-105 w-fit ${
               mounted ? 'opacity-100 translate-y-0' : 'opacity-0 -translate-y-4'
             }`}
           >
-            <div className="w-12 h-12 bg-white rounded-xl flex items-center justify-center">
-              <span className="text-black font-semibold text-xl">R</span>
+            <div className="w-8 h-8 bg-white rounded-lg flex items-center justify-center">
+              <span className="text-black font-bold text-sm">R</span>
             </div>
-            <div>
-              <p className="text-xl font-semibold tracking-tight">RX Hub</p>
-              <p className="text-sm text-gray-500">Research Automation</p>
-            </div>
+            <span className="text-white font-semibold">RX Hub</span>
           </Link>
 
           {/* Center Content */}
